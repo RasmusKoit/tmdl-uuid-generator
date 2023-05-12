@@ -3,6 +3,8 @@
   "displayName": "TMDL UUID Generator",
   "description": "Creates UUID on save from a variable or with a click of your mouse",
   "version": "0.0.1",
+  "publisher": "Rasmus Koit",
+  "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.78.0"
   },
