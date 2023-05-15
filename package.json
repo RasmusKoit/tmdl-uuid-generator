@@ -4,7 +4,7 @@
   "description": "Creates UUID on save from a variable or with a click of your mouse",
   "version": "0.0.1",
   "publisher": "Rasmus Koit",
-  "icon": "https://raw.githubusercontent.com/RasmusKoit/tmdl-uuid-generator/main/images/icon.png",
+  "icon": "images/icon.png",
   "repository": {
     "type": "git",
     "url": "git@github.com:RasmusKoit/tmdl-uuid-generator.git"
