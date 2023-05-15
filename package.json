@@ -3,7 +3,7 @@
   "displayName": "TMDL UUID Generator",
   "description": "Creates UUID on save from a variable or with a click of your mouse",
   "version": "1.0.0",
-  "publisher": "1d19d957-236e-61b7-842b-e1d5c8c9b3ce",
+  "publisher": "RasmusKoit",
   "icon": "images/icon.png",
   "repository": {
     "type": "git",
