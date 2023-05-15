@@ -1,71 +1,49 @@
-# tmdl-uuid-generator README
+# TMDL UUID Generator
 
-This is the README for your extension "tmdl-uuid-generator". After writing up a brief description, we recommend including the following sections.
+This is a Visual Studio Code extension that generates UUIDs for TMDL files.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+- Generates UUIDs for TMDL files
+- Supports generating UUIDs for individual files or all files in a workspace
+- Can be triggered via a context menu item or keyboard shortcut
+- Supports configuration options for generating UUIDs on save and customizing the string to replace with a UUID
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+This extension has no dependencies or requirements.
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
 This extension contributes the following settings:
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+* `tmdl-uuid-generator.generateOnSave`: Enable/disable generating UUIDs for all TMDL files on save. (default: off)
+* `tmdl-uuid-generator.stringToReplace`: The string to replace with a generated UUID. (default: $UUID)
+
+## Usage
+
+To generate a UUID for a TMDL file, right-click on the editor and select "Generate UUID" from the context menu, or use the keyboard shortcut `Ctrl+k g` (Windows, Linux) or `Cmd+k g` (macOS).
+
+To generate UUIDs for all TMDL files in a workspace, right-click on the editor and select "Generate All UUIDs" from the context menu, or use the keyboard shortcut ``Ctrl+k Shift+g` (Windows, Linux) or `Cmd+k Shift+g` (macOS).
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+There are no known issues with this extension.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
 ### 1.0.0
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
+Initial release of TMDL UUID Generator.
 
 ### 1.1.0
 
-Added features X, Y, and Z.
+Added support for generating UUIDs for all TMDL files in a workspace.
 
----
+### 1.2.0
 
-## Following extension guidelines
+Added support for generating UUIDs on save and customizing the string to replace with a UUID.
 
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
+## Credits
 
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+This extension was created by [Rasmus Koit](https://github.com/RasmusKoit).
