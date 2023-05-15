@@ -5,6 +5,10 @@
   "version": "0.0.1",
   "publisher": "Rasmus Koit",
   "icon": "https://raw.githubusercontent.com/RasmusKoit/tmdl-uuid-generator/main/images/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:RasmusKoit/tmdl-uuid-generator.git"
+  },
   "engines": {
     "vscode": "^1.78.0"
   },
